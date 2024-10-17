@@ -7,12 +7,16 @@ document.addEventListener('DOMContentLoaded'
     });
 });
 
+let splash_ran = localStorage.getItem("splashran") === "true";
 
+if (!splash_ran){
 document.addEventListener('DOMContentLoaded', () => {
     const splash = document.querySelector('.splash');
     
     splash.addEventListener('animationend', () => {
       splash.style.display = 'none';
+      localStorage.setItem("splashran","true");
     
     });
   });
+  }
