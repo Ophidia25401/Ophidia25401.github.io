@@ -43,9 +43,9 @@ body{
   text-align: end;
 }
 
-@media(max-width: 1000px){
-  .navbar{
-    font-size: 1.5rem;
+@media(max-width: 1200px){
+  .navbar-toggler{
+    width: 30%;;
   }
 
 }
