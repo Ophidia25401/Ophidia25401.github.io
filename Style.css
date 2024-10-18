@@ -43,13 +43,19 @@ body{
   text-align: end;
 }
 
+@media(max-width: 1000px){
+  .navbar{
+    font-size: 1.5rem;
+  }
 
-@media(max-width :500px ){
+}
+
+@media(max-width :705px ){
   .navbar-toggler{
     width: 30%;
     margin-left: 35%;
     justify-content: center;
- 
+  
     
     
   }
