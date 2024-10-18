@@ -35,10 +35,6 @@ body{
   
   }
 
- @keyframes fadeOut {
-  0% {opacity: 1;}
-  100% {opacity: 0;}   
-  }
  
 
 .navbar-nav{
@@ -46,10 +42,14 @@ body{
 }
 
 
-@media(max-width:480px ){
+@media(max-width :500px ){
   .navbar-toggler{
     width: 30%;
     margin-left: 35%;
+    justify-content: center;
+    margin-top: 26%;
+    position: relative;
+    z-index: 1;
     
   }
   .box2{
@@ -61,11 +61,11 @@ body{
     text-align: center;
   }
   .navbar-brand{
-    font-size: 1.4rem;
+    position: absolute;
+    font-size:1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
-  .splash h1{
-    text-align: center;
 
-  }
 
 }
