@@ -35,7 +35,9 @@ body{
   
   }
 
- 
+ .navbar{
+  margin-right: 3%;
+ }
 
 .navbar-nav{
   text-align: end;
@@ -47,9 +49,8 @@ body{
     width: 30%;
     margin-left: 35%;
     justify-content: center;
-    margin-top: 26%;
-    position: relative;
-    z-index: 1;
+ 
+    
     
   }
   .box2{
@@ -61,7 +62,7 @@ body{
     text-align: center;
   }
   .navbar-brand{
-    position: absolute;
+    position: relative;
     font-size:1.5rem;
     left: 50%;
     transform: translateX(-50%);
